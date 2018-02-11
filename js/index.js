@@ -12,6 +12,7 @@ app.config(function($routeProvider) {
     });
 });
 app.controller('myCtrl', function($scope, $location) {
+     $location.path('/home'); 
     $scope.redirectToPage2 = function(){
        $location.path('/story2');
     }
