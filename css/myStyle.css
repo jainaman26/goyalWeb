@@ -21,5 +21,11 @@
   transform: translate(-50%, -50%);
 }
 body{
-   font-family: mReg; 
+   font-family: mBold; 
+}
+
+.smileNclick{
+    font-size: 25px;
+    font-family: mBold;
+    margin-top: 25px;
 }
