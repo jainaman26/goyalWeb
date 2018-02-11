@@ -1,3 +1,10 @@
 #smile1{
     background-image: url(/img/smile1.png);
+    background-repeat: no-repeat;
+    BACKGROUND-POSITION: center;
+    background-size: 300px 300px;
+    height: 100vh;
+}
+body{
+    
 }
