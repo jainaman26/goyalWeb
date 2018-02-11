@@ -25,4 +25,5 @@ app.controller('myCtrl', function($scope, $location) {
     $scope.redirectToPage4 = function(){
        $location.path('/story4'); 
     }
+    
 });
