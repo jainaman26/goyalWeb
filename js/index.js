@@ -7,6 +7,9 @@ app.config(function($routeProvider) {
     .when("/story2", {
         templateUrl : "templates/page2.html"
     })
+    .when("/story3", {
+        templateUrl : "templates/page3.html"
+    })
     .otherwise({
         redirectTo: '/home'
     });
@@ -18,5 +21,8 @@ app.controller('myCtrl', function($scope, $location) {
     }
     $scope.redirectToPage3 = function(){
        $location.path('/story3'); 
+    }
+    $scope.redirectToPage4 = function(){
+       $location.path('/story4'); 
     }
 });
