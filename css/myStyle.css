@@ -1,3 +1,11 @@
+@font-face {
+    font-family: mBold;
+    src: url(../font/Merienda/Merienda-Bold.ttf);
+}
+@font-face {
+    font-family: mReg;
+    src: url(../font/Merienda/Merienda-Regular.ttf);
+}
 #smile1{
     background-image: url(/img/smile1.png);
     background-repeat: no-repeat;
@@ -13,5 +21,5 @@
   transform: translate(-50%, -50%);
 }
 body{
-    
+   font-family: mReg; 
 }
