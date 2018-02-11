@@ -1,0 +1,20 @@
+<div class="centered">
+    <img src="img/smile4.jpg" height="300" width="500" ng-click="redirectToPage5()">
+    <div class="text-center smileNclick" id="typed">.</div>
+</div>
+
+<script>
+	$("#typed").typed({
+		strings: [" Perfect !!! "],
+		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+		stringsElement: null,
+		// typing speed
+		typeSpeed: 30,
+		// time before typing starts
+		startDelay: 1500,
+		showCursor: false,
+		// character for cursor
+		cursorChar: "|",
+	});
+	
+</script>
