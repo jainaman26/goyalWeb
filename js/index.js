@@ -13,6 +13,9 @@ app.config(function($routeProvider) {
     .when("/story4", {
         templateUrl : "templates/page4.html"
     })
+    .when("/story5", {
+        templateUrl : "templates/page5.html"
+    })
     .otherwise({
         redirectTo: '/home'
     });
