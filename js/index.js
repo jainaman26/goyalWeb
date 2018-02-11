@@ -8,3 +8,8 @@ app.config(function($routeProvider) {
         redirectTo: '/home'
     });
 });
+app.controller('myCtrl', function($scope) {
+    $scope.redirectToPage2 = function(){
+        alert("Hello");
+    }
+});
