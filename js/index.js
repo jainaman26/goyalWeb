@@ -35,3 +35,8 @@ app.controller('myCtrl', function($scope, $location) {
        $location.path('/story5'); 
     }
 });
+app.controller('ctrlSlide', function($scope, $location) {
+     $timeout( function(){
+            $location.path('/story2');
+        }, 10000 );
+});
