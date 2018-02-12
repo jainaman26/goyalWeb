@@ -6,6 +6,14 @@
     font-family: mReg;
     src: url(../font/Merienda/Merienda-Regular.ttf);
 }
+
+
+.textEnd{
+	text-align: end;
+}
+.marginTop30{
+	margin-top:30px;
+}
 #smile1{
     background-image: url(/img/smile1.png);
     background-repeat: no-repeat;
