@@ -24,8 +24,13 @@
 </head>
 
 <body ng-app="myApp">
-
-    <div ng-view class="container-fluid" ng-controller="myCtrl"></div>
+<div ng-controller="myCtrl">
+  <audio controls>
+    <source src="mp3/terimeri.mp3" type="audio/mpeg">
+  </audio>
+   <div ng-view class="container-fluid"></div>
+</div>  
+   
 
 </body>
 
