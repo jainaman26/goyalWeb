@@ -35,6 +35,8 @@ app.config(function($routeProvider) {
 app.controller('myCtrl', function($scope, $location) {
      $location.path('/home'); 
     $scope.redirectToPage2 = function(){
+        $scope.elem = angular.element(document.querySelector("#audio"));
+        $scope.elem.play();
        $location.path('/story2');
     }
     $scope.redirectToPage3 = function(){
