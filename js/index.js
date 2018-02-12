@@ -35,9 +35,28 @@ app.controller('myCtrl', function($scope, $location) {
        $location.path('/story5'); 
     }
 });
-app.controller('ctrlSlide', function($scope, $location, $timeout) {
-console.log("AMan Jain");
+app.controller('ctrlSlide1', function($scope, $location, $timeout) {
     $timeout( function(){
-            $location.path('/story2');
-        }, 10000 );
+            $location.path('/story3');
+        }, 3000 );
+});
+app.controller('ctrlSlide2', function($scope, $location, $timeout) {
+    $timeout( function(){
+            $location.path('/story4');
+        }, 3000 );
+});
+app.controller('ctrlSlide3', function($scope, $location, $timeout) {
+    $timeout( function(){
+            $location.path('/story5');
+        }, 3000 );
+});
+app.controller('ctrlSlide4', function($scope, $location, $timeout) {
+    $timeout( function(){
+            $location.path('/story6');
+        }, 3000 );
+});
+app.controller('ctrlSlide5', function($scope, $location, $timeout) {
+    $timeout( function(){
+            $location.path('/story7');
+        }, 3000 );
 });
