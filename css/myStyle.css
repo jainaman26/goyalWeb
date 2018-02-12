@@ -47,6 +47,15 @@ body{
 }
 pre {
     white-space: pre-wrap;
+    display: block;
+    padding: 9.5px;
+    font-family: mBold;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 @media screen and (max-width: 1199px) {
