@@ -36,7 +36,8 @@ app.controller('myCtrl', function($scope, $location) {
     }
 });
 app.controller('ctrlSlide', function($scope, $location) {
-     $timeout( function(){
+console.log("AMan Jain");
+    $timeout( function(){
             $location.path('/story2');
         }, 10000 );
 });
