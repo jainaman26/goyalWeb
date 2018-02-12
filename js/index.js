@@ -43,20 +43,20 @@ app.controller('ctrlSlide1', function($scope, $location, $timeout) {
 app.controller('ctrlSlide2', function($scope, $location, $timeout) {
     $timeout( function(){
             $location.path('/story4');
-        }, 3000 );
+        }, 5000 );
 });
 app.controller('ctrlSlide3', function($scope, $location, $timeout) {
     $timeout( function(){
             $location.path('/story5');
-        }, 3000 );
+        }, 5000 );
 });
 app.controller('ctrlSlide4', function($scope, $location, $timeout) {
     $timeout( function(){
             $location.path('/story6');
-        }, 3000 );
+        }, 5000 );
 });
 app.controller('ctrlSlide5', function($scope, $location, $timeout) {
     $timeout( function(){
             $location.path('/story7');
-        }, 3000 );
+        }, 5000 );
 });
