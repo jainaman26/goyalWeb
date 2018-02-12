@@ -55,6 +55,7 @@ pre {
     color: #333;
     background-color: #f5f5f5;
     border: 1px solid #ccc;
+    word-break: normal;
     border-radius: 4px;
 }
 
