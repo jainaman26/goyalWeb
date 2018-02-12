@@ -76,6 +76,16 @@ pre {
     color: #FFF;
 }
 
+.starBkTxtPos{
+	position: relative;
+	top: 0%;
+	transform: translateY(30%);
+}
+
+.fullHeight{
+    height: 100vh
+}
+
 @media screen and (max-width: 1199px) {
     .height100{
         height: 50vh;
