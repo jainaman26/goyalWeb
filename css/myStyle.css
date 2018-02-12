@@ -61,7 +61,7 @@ pre {
 
 .starBkStyle{
     display: block;
-    background-image: url(img/starBks_mob.jpg);
+    background-image: url(../img/starBks_mob.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
