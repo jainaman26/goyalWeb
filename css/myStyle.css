@@ -39,3 +39,23 @@ body{
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
+
+.height100{
+    height: 100vh;
+}
+
+@media screen and (max-width: 1199px) {
+    .imgPos {
+        position: relative;
+        top: 25%;
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .imgPos {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
