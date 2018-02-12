@@ -96,7 +96,22 @@ pre {
         transform: translateY(-20%);
     }
 }
-
+@media screen and (max-width: 767px) {
+	.starBkTxtStyle1{
+		font-size:20px;
+	}
+	.starBkTxtStyle2{
+		font-size:30px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.starBkTxtStyle1{
+		font-size:30px;
+	}
+	.starBkTxtStyle2{
+		font-size:40px;
+	}
+}
 @media screen and (min-width: 1200px) {
     .height100{
         height: 100vh;
