@@ -35,7 +35,7 @@ app.config(function($routeProvider) {
 app.controller('myCtrl', function($scope, $location) {
      $location.path('/home'); 
     $scope.redirectToPage2 = function(){
-        var elem = document.getElementByID('audio');
+        var elem = document.getElementById('audio');
         elem.play();
        $location.path('/story2');
     }
