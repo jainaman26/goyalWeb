@@ -70,7 +70,8 @@ app.controller('ctrlSlide5', function($scope, $location, $timeout) {
         }, 13000 );
 });
 app.controller('ctrlSlide6', function($scope, $location, $timeout) {
+    $scope.showLoader = false;
     $timeout( function(){
-            $location.path('/story8');
-        }, 15000 );
+            $scope.showLoader = true;
+        }, 6000 );
 });
