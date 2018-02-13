@@ -32,7 +32,7 @@ app.config(function($routeProvider) {
         redirectTo: '/home'
     });
 });
-app.controller('myCtrl', function($scope, $location) {
+app.controller('myCtrl', function($scope, $location, $timeout) {
      $location.path('/home');
     $scope.showLoader = false;
     $timeout( function(){
