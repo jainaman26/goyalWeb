@@ -33,7 +33,8 @@ app.config(function($routeProvider) {
     });
 });
 app.controller('myCtrl', function($scope, $location) {
-     $location.path('/home'); 
+     $location.path('/home');
+    $scope.showLoader = true;
     $scope.redirectToPage2 = function(){
         var elem = document.getElementById('audio');
         elem.play();
