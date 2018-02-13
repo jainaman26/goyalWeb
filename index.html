@@ -31,7 +31,7 @@
     <source src="mp3/terimeri.mp3" type="audio/mpeg">
   </audio>
    <div ng-view></div>
-  <div class="loaderDiv">
+  <div class="loaderDiv" ng-if="showLoader">
      <input id="toggle-heart" type="checkbox"/>
      <label class="txtCentered" style="top:45%" for="toggle-heart">❤</label>
   </div>
