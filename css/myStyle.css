@@ -6,7 +6,13 @@
     font-family: mReg;
     src: url(../font/Merienda/Merienda-Regular.ttf);
 }
-
+.loaderDiv{
+	height: 100vh;
+	overflow: hidden;
+	z-index: 1068;
+	position: relative !important;
+	background-color: #fff;
+}
 
 .textEnd{
 	text-align: end;
