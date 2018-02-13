@@ -171,7 +171,7 @@ window.CP.exitedLoop(1);
 
   timeout = cssTransition() ? [500, 700] : [0, 0];
 count = 0;	
-  images.addEventListener((touch ? 'touchend' : 'click'), function(event) {
+  setInterval(function(){ 
   if(count < 20 ){
 	count++;
 	var direction, lastClassList;
@@ -190,9 +190,10 @@ count = 0;
         return queue = false;
       }, timeout[0]);
     }, timeout[1]);
+  }else if(count == 20){
+  	window.location.assign("http://www.amanwedsvaishali.in/story8);
   }
-    
-  }, false);
+}, 3000);   
 
 }).call(this);
 
