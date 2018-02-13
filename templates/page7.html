@@ -136,9 +136,27 @@ h1 { margin:150px auto 30px auto; text-align:center;}
 <img class='image' src='img/19.jpg'>
 <img class='image' src='img/20.jpg'>
 </div>
+
+ <div class="loaderDiv" ng-hide="showLoader">
+     <input id="toggle-heart" type="checkbox"/>
+     <label class="txtCentered" style="top:45%" for="toggle-heart">❤</label>
+  </div>
+</div>  
+   
 <script>
-(function() {
-  var cssTransition, imageOffset, imageWidth, images, queue, timeout, touch;
+  setInterval(function(){  
+	if(document.getElementById("toggle-heart").checked){
+		document.getElementById("toggle-heart").checked = false;
+	}else{
+		document.getElementById("toggle-heart").checked = true;
+	}
+	 
+}, 1000);
+  </script>
+
+<script>
+setTimeout(function(){ 
+	var cssTransition, imageOffset, imageWidth, images, queue, timeout, touch;
 
   cssTransition = function() {
     var body, i, len, style, vendor, vendors;
@@ -193,9 +211,9 @@ count = 0;
   }else if(count == 20){
   	window.location.assign("http://www.amanwedsvaishali.in/story8");
   }
-}, 3000);   
+}, 3000);  	     
+}, 6000);	
 
-}).call(this);
 
 </script>
 
