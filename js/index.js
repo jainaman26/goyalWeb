@@ -54,9 +54,14 @@ app.controller('myCtrl', function($scope, $location, $timeout) {
     }
 });
 app.controller('ctrlSlide1', function($scope, $location, $timeout) {
+    $scope.showLoader = false;
     $timeout( function(){
-            $location.path('/story3');
-        }, 3500 );
+        $scope.showLoader = true; 
+         $timeout( function(){
+             $location.path('/story3');
+             }, 5000 );
+          
+        }, 3000 );
 });
 app.controller('ctrlSlide2', function($scope, $location, $timeout) {
     $timeout( function(){
