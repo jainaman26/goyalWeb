@@ -35,6 +35,9 @@ app.config(function($routeProvider) {
 app.controller('myCtrl', function($scope, $location) {
      $location.path('/home');
     $scope.showLoader = false;
+    $timeout( function(){
+          $scope.showLoader = true;  
+    }, 5000 );
     $scope.redirectToPage2 = function(){
         var elem = document.getElementById('audio');
         elem.play();
