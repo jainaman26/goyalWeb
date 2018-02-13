@@ -27,7 +27,7 @@ body {
   align-self: center;
   position: relative;
   color: #aab8c2;
-  font-size: 2em;
+  font-size: 6em;
   cursor: pointer;
 }
 [for='toggle-heart']:before, [for='toggle-heart']:after {
