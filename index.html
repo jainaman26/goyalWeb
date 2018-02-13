@@ -21,6 +21,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
   <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body ng-app="myApp">
@@ -29,9 +31,22 @@
     <source src="mp3/terimeri.mp3" type="audio/mpeg">
   </audio>
    <div ng-view class="container-fluid"></div>
+  <div>
+     <input id="toggle-heart" type="checkbox"/>
+     <label for="toggle-heart">❤</label>
+  </div>
 </div>  
    
-
+<script>
+  setInterval(function(){  
+	if(document.getElementById("toggle-heart").checked){
+		document.getElementById("toggle-heart").checked = false;
+	}else{
+		document.getElementById("toggle-heart").checked = true;
+	}
+	 
+}, 1000);
+  </script>
 </body>
 
 </html>
