@@ -37,36 +37,27 @@ app.controller('myCtrl', function($scope, $location, $timeout) {
     $scope.showLoader = false;
     $timeout( function(){
           $scope.showLoader = true;  
-    }, 5000 );
+    }, 8000 );
     $scope.redirectToPage2 = function(){
         var elem = document.getElementById('audio');
         elem.play();
        $location.path('/story2');
     }
-    $scope.redirectToPage3 = function(){
-       $location.path('/story3'); 
-    }
-    $scope.redirectToPage4 = function(){
-       $location.path('/story4'); 
-    }
-    $scope.redirectToPage5 = function(){
-       $location.path('/story5'); 
-    }
 });
 app.controller('ctrlSlide1', function($scope, $location, $timeout) {
     $timeout( function(){
              $location.path('/story3');          
-        }, 3500 );
+        }, 5000 );
 });
 app.controller('ctrlSlide2', function($scope, $location, $timeout) {
     $timeout( function(){
             $location.path('/story4');
-        }, 5500 );
+        }, 5000 );
 });
 app.controller('ctrlSlide3', function($scope, $location, $timeout) {
     $timeout( function(){
             $location.path('/story5');
-        }, 5500 );
+        }, 5000 );
 });
 app.controller('ctrlSlide4', function($scope, $location, $timeout) {
     $timeout( function(){
@@ -76,7 +67,7 @@ app.controller('ctrlSlide4', function($scope, $location, $timeout) {
 app.controller('ctrlSlide5', function($scope, $location, $timeout) {
     $timeout( function(){
             $location.path('/story7');
-        }, 8000 );
+        }, 12000 );
 });
 app.controller('ctrlSlide6', function($scope, $location, $timeout) {
     $timeout( function(){
