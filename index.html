@@ -25,15 +25,15 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body ng-app="myApp">
+<body ng-app="myApp" class="container-fluid">
 <div ng-controller="myCtrl">
   <audio id="audio" controls preload="auto">
     <source src="mp3/terimeri.mp3" type="audio/mpeg">
   </audio>
-   <div ng-view class="container-fluid"></div>
-  <div>
+   <div ng-view></div>
+  <div class="loaderDiv">
      <input id="toggle-heart" type="checkbox"/>
-     <label for="toggle-heart">❤</label>
+     <label class="txtCentered" for="toggle-heart">❤</label>
   </div>
 </div>  
    
