@@ -73,5 +73,5 @@ app.controller('ctrlSlide6', function($scope, $location, $timeout) {
     $scope.showLoader = false;
     $timeout( function(){
             $scope.showLoader = true;
-        }, 6000 );
+        }, 10000 );
 });
