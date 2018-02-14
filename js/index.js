@@ -77,6 +77,6 @@ app.controller('ctrlSlide6', function($scope, $location, $timeout) {
 });
 app.controller('ctrlSlide7', function($scope, $location, $timeout) {
      $timeout( function(){
-            $location.path('/story9');
+            $location.path('/story8');
         }, 9000 );
 });
